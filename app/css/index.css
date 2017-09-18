@@ -1,0 +1,62 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+html, body { width: 100%; height: 100%; }
+
+.box { width: 100%; height: 100%; display: flex; flex-direction: column; position: relative; }
+.box header { height: 50px; background: linear-gradient(to right, #90d327, #1aad19); text-align: center; width: 100%; }
+.box header ul { width: 100%; height: 100%; display: flex; line-height: 50px; justify-content: space-around; }
+.box header ul li a { font-size: 16px; color: #fff; }
+.box .sidebar { background: #404248; width: 60%; bottom: 50px; position: absolute; top: 50px; left: 0px; z-index: 10000; }
+.box .sidebar ol { width: 100%; }
+.box .sidebar ol li { line-height: 50px; width: 100%; position: relative; border-bottom: 1px solid #ccc; }
+.box .sidebar ol li img { position: absolute; top: 20px; left: 5px; }
+.box .sidebar ol li a { color: #fff; font-size: 14px; margin-left: 30px; }
+.box .sidebar ol li span { float: right; color: #fff; }
+.box section { width: 100%; height: 100%; flex: 1; overflow: auto; float: left; }
+.box section .swiper-container { width: 100%; height: 155px; }
+.box section .swiper-container img { width: 100%; height: 100%; }
+.box section .title { width: 100%; height: 45px; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+.box section .title h3 { font-size: 16px; color: #90d327; line-height: 45px; margin-left: 15px; position: relative; }
+.box section .title h3:before { content: ""; width: 3px; height: 24px; background: #90d327; position: absolute; top: 11px; left: -14px; }
+.box section .one { width: 100%; border-bottom: 3px solid #eee; padding-bottom: 20px; }
+.box section .one img { width: 100%; }
+.box section .one p { width: 100%; font-size: 12px; line-height: 20px; color: #999; padding: 0px 6px; text-align: justify; }
+.box section .two { width: 100%; display: flex; flex-direction: column; }
+.box section .two .yun { margin-bottom: 20px; }
+.box section .two .yun img { float: left; }
+.box section .two .yun p { font-size: 12px; color: #999; line-height: 22px; }
+.box section .two .yun p:nth-child(2) { color: #666; margin-top: 8px; }
+.box section .two .fu { width: 100%; }
+.box section .two .fu img { width: 100%; }
+.box section .two .fu span { font-size: 14px; color: #666; line-height: 30px; }
+.box section .two .fu p { font-size: 12px; color: #999; line-height: 20px; }
+.box section .pics { width: 100%; height: 140px; overflow: hidden; margin-top: 30px; position: relative; }
+.box section .pics .imgs { position: absolute; width: 560px; height: 100%; }
+.box section .pics .imgs .lb { width: 120px; height: 100%; float: left; border: 1px solid #ccc; margin-right: 20px; text-align: center; border-radius: 5px; }
+.box section .pics .imgs .lb img { width: 100%; }
+.box section .pics .imgs .lb a { font-size: 12px; color: #666; line-height: 30px; display: block; }
+.box section .three { width: 100%; position: relative; }
+.box section .three img { width: 100%; }
+.box section .three a { display: block; width: 100%; line-height: 30px; color: #fff; font-size: 16px; background: rgba(0, 0, 0, 0.7); text-align: center; position: absolute; top: 100px; left: 0px; }
+.box section .dian { width: 100%; height: 180px; margin-bottom: 30px; }
+.box section .dian ul { width: 100%; height: 100%; display: flex; flex-wrap: wrap; justify-content: space-around; position: relative; }
+.box section .dian ul:before { content: ""; width: 1px; height: 180px; background: #ccc; position: absolute; top: 0px; left: 50%; }
+.box section .dian ul li { width: 44%; flex-shrink: 0; border-bottom: 1px solid #ccc; text-align: center; }
+.box section .dian ul li a { font-size: 14px; color: #333; overflow: hidden; display: block; text-overflow: ellipsis; white-space: nowrap; margin-top: 30px; }
+.box section .dian ul li span { font-size: 12px; color: #999; }
+.box section .top { background: #1aad19; width: 100%; height: 30px; }
+.box section .top a { float: right; display: block; font-size: 14px; line-height: 30px; color: #fff; padding-right: 20px; }
+.box section .top a span { border: 5px solid transparent; border-bottom: 10px solid #fff; display: inline-block; margin-left: 10px; }
+.box section .info { text-align: center; height: 60px; }
+.box section .info p { font-size: 14px; color: #999; line-height: 60px; }
+.box footer { width: 100%; height: 50px; text-align: center; background: linear-gradient(to right, #90d327, #1aad19); }
+.box footer ol { width: 100%; height: 100%; display: flex; justify-content: space-around; }
+.box footer ol li { font-size: 14px; }
+.box footer ol li a { color: #fff; display: block; }
+.box footer ol li img { width: 20px; height: 20px; }
+
+/*# sourceMappingURL=index.css.map */

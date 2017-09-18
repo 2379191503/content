@@ -1,0 +1,527 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 1200px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.logo{
+	float: left;
+}
+.int{
+	float: left;
+	margin-left: 120px;
+	margin-top: 50px;
+	position: relative;
+}
+.int input{
+	width: 500px;
+	height: 35px;
+	border-radius: 20px;
+	outline: none;
+	border: 2px solid #f74718;
+	text-indent: 1em;
+}
+.int img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 7px;
+	right: 15px;
+}
+.hua{
+	float: right;
+	margin-top: 32px;
+	line-height: 35px;
+}
+.hua span{
+	display: block;
+	color: #999;
+}
+.hua span i{
+	color: #f74718;
+}
+.nav{
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav >ul{
+	display: flex;
+	text-align: center;
+	height: 30px;
+}
+.nav >ul >li{
+	flex: 1;
+	position: relative;
+}
+.nav >ul>li>a{
+	font-weight: bold;
+	font-size: 20px;
+	color: #333;
+	display: block;
+	border-bottom: 3px solid #333;
+	padding-bottom: 12px;
+}
+.nav >ul >li>a:hover{
+	border-bottom: 3px solid #f74718;
+	color: #f74718;
+}
+.nav>ul>li>div{
+	visibility: hidden;
+}
+.fen1{
+	width: 630px;
+	height: 400px;
+	background: #fafafa;
+	margin-top: 10px;
+	position: absolute;
+	top: 31px;
+	left: 0px;
+	z-index: 1000;
+}
+.fen1 ol,.fen2 ol{
+	width: 200px;
+	padding-top: 40px;
+	position: relative;
+	float: left;
+}
+.fen1 ol:before,.fen2 ol:before{
+	content: "";
+	width: 1px;
+	height: 300px;
+	background: #ccc;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+.fen1 ol li,.fen2 ol li{
+	font-size: 14px;
+	color: #666;
+	line-height: 40px;
+	text-indent: 2em;
+}
+.fen1 ol li:hover,.fen2 ol li:hover{
+	color: #f74718;
+	cursor: pointer;
+}
+.fen1 img{
+	float: right;
+	width: 400px;
+	height: 250px;
+	margin-top: 40px;
+}
+.fen1 p{
+	width: 350px;
+	float: left;
+	line-height: 30px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+.fen2{
+	width: 550px;
+	background: #fafafa;
+	margin-top: 10px;
+	position: absolute;
+	top: 31px;
+	left: 0px;
+	z-index: 1000;
+}
+.fen2 ol{
+	width: 130px;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+}
+.fen2 div{
+	float: left;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	display: none;
+}
+.fen2 .show{
+	display: block;
+}
+.fen2 p{
+	font-size: 14px;
+	color: #999;
+	line-height: 30px;
+}
+.fen3{
+	width: 800px;
+	background: #fafafa;
+	margin-top: 10px;
+	position: absolute;
+	top: 31px;
+	display: flex;
+	left: -150px;
+	z-index: 1000;
+}
+.fen3 >div{
+	margin-right: 40px;
+	margin-top: 50px;
+	padding-left: 20px;
+	position: relative;
+}
+.fen3>div:first-child:before{
+	content: "";
+	width: 1px;
+	height: 330px;
+	position: absolute;
+	top: 0px;
+	background: #ccc;
+	right: 0px;
+}
+.fen3>div:nth-child(2):before{
+	content: "";
+	width: 1px;
+	height: 330px;
+	position: absolute;
+	top: 0px;
+	background: #ccc;
+	right: -30px;
+}
+.fen3 h4{
+	color: #f74718;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.one1 h4{
+	text-align: left;
+}
+.one1{
+	width: 50%;
+}
+.one1 div{
+	float: left;
+	text-align: left;
+	margin-right: 30px;
+}
+.fen3 span{
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+	display: block;
+	line-height: 24px;
+}
+.fen3 span:hover,.fen3 ol li:hover{
+	color: #f74718;
+	cursor: pointer;
+}
+.fen3 ol li{
+	font-size: 12px;
+	color: #666;
+	line-height: 24px;
+}
+.fen4{
+	width: 730px;
+	height: 450px;
+	background: #fafafa;
+	margin-top: 10px;
+	position: absolute;
+	top: 31px;
+	left: -220px;
+	display: flex;
+	z-index: 1000;
+}
+.fen4 ol{
+	margin-top: 30px;
+}
+.fen4 ol li{
+	color: #666;
+	text-align: left;
+	text-indent: 2em;
+	line-height: 40px;
+}
+.fen4 div{
+	padding-left: 50px;
+	margin-top: 50px;
+	position: relative;
+}
+.fen4 div:before{
+	content: "";
+	width: 1px;
+	height: 360px;
+	background: #ccc;
+	position: absolute;
+	top: 0px;
+	left: 24px;
+}
+.fen4 div img{
+	margin-bottom: 30px;
+}
+.fen4 div p{
+	font-size: 14px;
+	width: 200px;
+	color: #999;
+	text-align: left;
+}
+.fen5{
+	width: 750px;
+	background: #fafafa;
+	margin-top: 10px;
+	position: absolute;
+	top: 31px;
+	left: -250px;
+	display: flex;
+	z-index: 1000;
+	justify-content: space-around;
+}
+.fen5 div{
+	margin-top: 40px;
+	text-align: left;
+	position: relative;
+	padding-bottom: 40px;
+}
+.fen5 div:before{
+	content: "";
+	width: 1px;
+	height: 470px;
+	background: #ccc;
+	position: absolute;
+	top: 0px;
+	right: -36px;
+}
+.fen5 div:last-child:before{
+	display: none;
+}
+.fen5 h5{
+	font-size: 14px;
+}
+.fen5 ol li{
+	font-size: 12px;
+	color: #999;
+	line-height: 24px;
+}
+.fen5 ol li:hover,.fen5 h5:hover{
+	color: #f74718;
+	cursor: pointer;
+}
+.fen6{
+	width: 600px;
+	background: #fafafa;
+	margin-top: 10px;
+	position: absolute;
+	top: 31px;
+	left: -120px;
+	display: flex;
+	z-index: 1000;
+	justify-content: space-around;
+}
+.fen6 ol{
+	width: 100px;
+	text-align: left;
+	margin-bottom: 120px;
+	margin-top: 35px;
+}
+.fen6 div{
+	margin-top: 40px;
+	text-align: left;
+	position: relative;
+}
+.fen6 div:before{
+	content: "";
+	width: 1px;
+	height: 300px;
+	background: #ccc;
+	position: absolute;
+	top: 0px;
+	left: -28px;
+}
+.fen6 ol li{
+	line-height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.fen6 ol li:first-child{
+	font-weight: bold;
+	color: #333;
+}
+.fen6 ol li:hover,.fen6 div span:hover{
+	color: #f74718;
+	cursor: pointer;
+}
+.fen6 div span{
+	display: block;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+}
+.fen7{
+	width: 705px;
+	background: #fafafa;
+	margin-top: 10px;
+	position: absolute;
+	top: 31px;
+	right: -120px;
+	display: flex;
+	z-index: 1000;
+}
+.fen7 ol{
+	margin-top: 35px;
+	
+}
+.fen7 ol li{
+	color: #333;
+	line-height: 40px;
+	text-indent: 2em;
+}
+.fen7 div{
+	text-align: left;
+	padding-left: 50px;
+	margin-top: 45px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.fen7 div:before{
+	content: "";
+	width: 1px;
+	height: 300px;
+	background: #ccc;
+	position: absolute;
+	top: 0px;
+	left: 25px;
+}
+.fen7 div p{
+	width: 200px;
+	color: #666;
+	font-size: 14px;
+	line-height: 24px;
+}
+.fen8{
+	width: 385px;
+	background: #fafafa;
+	margin-top: 10px;
+	position: absolute;
+	top: 31px;
+	right: 0px;
+	z-index: 1000;
+}
+.fen8 ol{
+	float: left;
+	margin-top: 35px;
+	position: relative;
+}
+.fen8 ol:before{
+	content: "";
+	width: 1px;
+	height: 250px;
+	background: #ccc;
+	position: absolute;
+	top: 12px;
+	right: -23px;
+}
+.fen8 ol li{
+	color: #666;
+	line-height: 40px;
+	text-indent: 2em;
+}
+.fen8 img{
+	width: 200px;
+	height: 125px;
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+.fen8 p{
+	width: 200px;
+	color: #999;
+	font-size: 14px;
+	line-height: 22px;
+	float: right;
+	padding-right: 45px;
+	text-align: left;
+	margin-bottom: 80px;
+}
+.banner{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+}
+.bg{
+	background: #f74718 !important;
+}
+.banner ul{
+	position: absolute;
+	bottom: 20px;
+	left: 48%;
+}
+.banner ul li{
+	width: 12px;
+	height: 12px;
+	float: left;
+	border-radius: 50%;
+	background: #fff;
+	margin-right: 20px;
+}
+.pics{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.pics img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.footer{
+	width: 100%;
+	background: #2d3237;
+}
+.ftop{
+	width: 1200px;
+	height: 270px;
+	margin: 0 auto;
+}
+.ftop ul{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 35px;
+}
+.info h3{
+	color: #e5e5e5;
+	font-size: 16px;
+	line-height: 40px;
+}
+.info ol li{
+	line-height: 30px;
+}
+.info ol li a{
+	color: #e5e5e5;
+	font-size: 14px;
+}
+.fxia{
+	width: 100%;
+	background: #23282d;
+	padding-bottom: 35px;
+}
+.copy{
+	width: 1200px;
+	margin: 0 auto;
+}
+.copy p{
+	font-size: 14px;
+	color: #fff;
+	padding-top: 35px;
+}
+.copy span{
+	color: #fff;
+	font-size: 14px;
+	line-height: 50px;
+}
+.copy span:nth-child(3){
+	float: right;
+	margin-right: 100px;
+}

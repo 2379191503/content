@@ -1,0 +1,475 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.xin{
+	width: 800px;
+	margin-bottom: 30px;
+}
+.xin h3{
+	font-weight: 400;
+	color: #333;
+	border-bottom: 2px solid #f74718;
+	padding-bottom: 15px;
+	margin-bottom: 35px;
+}
+.xin h3 span{
+	display: inline-block;
+	cursor: pointer;
+}
+.xin h3 span:hover{
+	color: #f74718;
+}
+.xin h3 a{
+	float: right;
+	font-size: 12px;
+	color: #999;
+}
+.xin h3 a:hover{
+	color: #f74718;
+}
+.ma{
+	position: relative;
+}
+.ma img{
+	width: 240px;
+	height: 160px;
+	float: left;
+	margin-right: 30px;
+}
+.ma a{
+	font-size: 12px;
+	color: #fff;
+	width: 240px;
+	line-height: 20px;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: #ccc;
+}
+.ma ul li{
+	line-height: 40px;
+	color: #999;
+	
+}
+.ma ul li i{
+	cursor: pointer;
+}
+.ma ul li i:hover{
+	color: #f74718;
+}
+.ma ul li span{
+	float: right;
+	color: #999;
+	font-size: 12px;
+}
+.tou{
+	margin-top: 35px;
+	width: 800px;
+	height: 1400px;
+	float: left;
+}
+.lb{
+	position: relative;
+	overflow: hidden;
+	height: 1120px;
+	width: 800px;
+}
+.tui{
+	width: 4000px;
+	position: absolute;
+	height: 100%;
+	display: flex;
+}
+.one{
+	width: 800px;
+}
+.tui >h3,.ttl{
+	border-bottom: 2px solid #f74718;
+	font-weight: 400;
+	color: #333;
+	width: 800px;
+	padding-bottom: 15px;
+	margin-bottom: 35px;
+}
+.ttl span:hover{
+	color: #f74718;
+	cursor: pointer;
+}
+.lb ol{
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+}
+.lb ol li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #ccc;
+	float: left;
+	margin: 5px;
+}
+.lb ol li:hover{
+	background: #f74718;
+}
+.zhan,.jian,.fu,.wang,.cun,.xun,.huan,.san,.ru,.cai,.wei{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 30px;
+	overflow: hidden;
+	padding-top: 35px;
+}
+.zhan img,.jian img,.fu img,.wang img,.cun img,.xun img,.huan img,.san img,.ru img,.cai img,.wei img,.guo img,.yang img,.kan img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 50px;
+}
+.zhan h3,.jian h3,.fu h3,.wang h3,.xun h3,.cun h3,.huan h3,.san h3,.ru h3,.cai h3,.wei h3,.guo h3,.yang h3,.kan h3{
+	color: #333;
+	line-height: 35px;
+	cursor: pointer;
+}
+.tui h3:hover,.can h3:hover{
+	color: #f74718;
+}
+.zhan span,.jian span,.fu span,.wang span,.cun span,.xun span,.huan span,.san span,.ru span,.cai span,.wei span,.guo span,.yang span,.kan span{
+	color: #999;
+	line-height: 35px;
+	font-size: 14px;
+}
+.zhan p,.jian p,.fu p,.wang p,.xun p,.cun p,.huan p,.san p,.ru p,.cai p,.wei p,.guo p,.yang p,.kan p{
+	color: #666;
+	line-height: 30px;
+	font-size: 14px;
+}
+.zhan a,.jian a,.fu a,.wang a,.xun a,.cun a,.huan a,.guo a,.yang a,.kan a{
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background: #ccc;
+	font-size: 12px;
+	padding: 0px 5px;
+	line-height: 35px;
+	margin-right: 8px;
+}
+.tui a:hover,.can a:hover{
+	color: #f74718;
+}
+.mei{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 30px;
+	overflow: hidden;
+	margin-top: 35px;
+}
+.mei img{
+	float: left;
+	margin-right: 50px;
+}
+.mei h3{
+	color: #333;
+	cursor: pointer;
+}
+.mei span{
+	color: #999;
+	line-height: 35px;
+	font-size: 14px;
+}
+.mei p{
+	color: #666;
+	line-height: 25px;
+	font-size: 14px;
+}
+.mei a{
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background: #ccc;
+	font-size: 12px;
+	padding: 0px 5px;
+	line-height: 35px;
+	margin-right: 8px;
+}
+
+.tag{
+	width: 300px;
+	float: right;
+}
+.re h3,.run h3,.cha h3,.bing h3,.zhua h3{
+	color: #333;
+	font-weight: 400;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	margin-top: 35px;
+}
+.re h3 span:hover,.run h3 span:hover,.cha h3 span:hover,.bing h3 span:hover,.zhua h3 span:hover{
+	cursor: pointer;
+	color: #f74718;
+}
+.biao{
+	width: 100%;
+}
+.biao span{
+	display: inline-block;
+	margin: 3px 8px;
+	padding: 2px 10px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #b5b5b5;
+	background: #f0f0f0;
+	text-align: center;
+}
+.biao span:nth-child(6){
+	color: #FF0000;
+}
+.biao span:nth-child(7){
+	color: blue;
+}
+.biao span:hover{
+	background: #f74718;
+	cursor: pointer;
+	color: #fff;
+}
+.zhua h3 a{
+	color: #999;
+	float: right;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.zhua h3 a:hover{
+	color: #f74718;
+}
+.zhua ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.zhua ul li{
+	margin-bottom: 8px;
+	position: relative;
+}
+
+.zhua ul li img{
+	width: 145px;
+	height: 145px;
+	flex-shrink: 0;
+	cursor: pointer;
+}
+.big img{
+	width: 1200px;
+	margin-top: 25px;
+}
+.zuo{
+	width: 100%;
+	margin-top: 35px;
+}
+.zuo h3{
+	color: #333;
+	font-weight: 400;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #f74718;
+}
+.zuo h3 a{
+	float: right;
+	font-size: 12px;
+	color: #999;
+}
+.zuo h3 a:hover,.zuo h3 span:hover{
+	color: #f74718;
+	cursor: pointer;
+}
+.lan{
+	margin-top: 30px;
+}
+.lan ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.lan ul li{
+	width: 360px;
+}
+.lan ul li:first-child img{
+	height: 180px;
+}
+.lan ul li span{
+	font-size: 18px;
+	color: #f74718;
+	cursor: pointer;
+}
+.lan ul li img{
+	width: 135px;
+	height: 135px;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 50px;
+}
+.lan ul li p{
+	font-size: 14px;
+	color: #999;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 30px;
+}
+.lan ul li p:hover{
+	color: #f74718;
+	cursor: pointer;
+}
+.can{
+	width: 800px;
+	margin-top: 50px;
+}
+.can>h3{
+	font-weight: 400;
+	border-bottom: 2px solid #f74718;
+	padding-bottom: 15px;
+}
+.can h3 span{
+	cursor: pointer;
+}
+.guo,.yang,.kan{
+	margin-top: 35px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 35px;
+}
+.can{
+	float: left;
+}
+.shi{
+	width: 300px;
+	float: right;
+	margin-top: 50px;
+}
+.shi>h3{
+	color: #333;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 15px;
+	font-weight: 400;
+}
+.shi h3 span:hover{
+	color: #f74718;
+	cursor: pointer;
+}
+.icon{
+	width: 100%;
+	margin-top: 30px;
+}
+.icon ul li{
+	width: 100%;
+	height: 110px;
+	background: #eee;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.icon ul li:nth-child(1) span{
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	background: url(../img/syb.png) -500px -400px no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.icon ul li:nth-child(2) span{
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	background: url(../img/syb.png) 0px 0px no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.icon ul li:nth-child(3) span{
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	background: url(../img/syb.png) -100px -200px no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.icon ul li:nth-child(4) span{
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	background: url(../img/syb.png) -200px 0px no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.icon ul li:nth-child(5) span{
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	background: url(../img/syb.png) 0px -200px no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.icon ul li:nth-child(6) span{
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	background: url(../img/syb.png) -400px 0px no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.icon ul li:nth-child(1):hover span{
+	background: url(../img/syb.png) -500px -500px no-repeat;
+}
+.icon ul li:nth-child(2):hover span{
+	background: url(../img/syb.png) 0px -100px no-repeat;
+}
+.icon ul li:nth-child(3):hover span{
+	background: url(../img/syb.png) -100px -300px no-repeat;
+}
+.icon ul li:nth-child(4):hover span{
+	background: url(../img/syb.png) -200px -100px no-repeat;
+}
+.icon ul li:nth-child(5):hover span{
+	background: url(../img/syb.png) 0px -300px no-repeat;
+}
+.icon ul li:nth-child(6):hover span{
+	background: url(../img/syb.png) -400px -100px no-repeat;
+}
+.icon ul li h3{
+	font-weight: 400;
+	color: #999;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+}
+.icon ul li:hover h3{
+	color: #f74718;
+}
+.one >div >img:hover{
+	transition: all 1s;
+	transform: rotateY(360deg);
+	
+}
+.tag div:hover img{
+	animation: lk 1s;
+	display: block;
+}
+@keyframes lk{
+	from{
+		transform: scale(0);
+	}
+	to{
+		transform: scale(1);
+	}
+}
+
